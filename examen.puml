@@ -1,0 +1,10 @@
+@startuml
+entity "cursos" {
+  * id_curso : INT <<PK, AI>>
+  --
+  * nombre : VARCHAR(120)
+  * fecha_inicio : DATE
+  * descripcion : TEXT
+  * requisitos : VARCHAR(100)
+}
+@enduml
